@@ -1,0 +1,14 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,m;
+    cin>>n>>m;
+    int rec=m*(m+1)*n*(n+1)/4;
+    cout<<rec;
+
+    return 0;
+}
